@@ -62,7 +62,8 @@ The Jenkins pipeline defined in the `Jenkinsfile` includes the following stages:
 - **Post Actions**: Performs any necessary cleanup or notifications after the pipeline runs.
 
 ## Using the Pipeline
-Access Jenkins: Open your Jenkins dashboard in a web browser.
-Navigate to Your Pipeline Job: Click on the job you created earlier.
-Start the Build: Click on Build Now to initiate the pipeline.
-Monitor Console Output: Click on the build number in the Build History section to see the console output and monitor the progress of your build.
+
+1. **Access Jenkins**: Open your Jenkins dashboard in a web browser.
+2. **Navigate to Your Pipeline Job**: Click on the job you created earlier.
+3. **Start the Build**: Click on **Build Now** to initiate the pipeline.
+4. **Monitor Console Output**: Click on the build number in the **Build History** section to see the console output and monitor the progress of your build.
