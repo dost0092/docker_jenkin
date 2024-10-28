@@ -40,7 +40,7 @@ pipeline {
             steps {
                 script {
                     // Run the new Docker container
-                    sh "docker run -d --name ${DOCKER_CONTAINER_NAME} -p 80:80 ${DOCKER_IMAGE}"
+                    sh "docker run -d --name ${DOCKER_CONTAINER_NAME} -p 3000:5000 ${DOCKER_IMAGE}"
                 }
             }
         }
