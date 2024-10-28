@@ -82,6 +82,35 @@ def get_city_by_id(city_id):
     except Exception as e:
         print(f"Database query error: {e}")
         return jsonify({"error": "Database query failed"}), 500
+    
+
+
+# New endpoint to get a city by a direct /id/<int:id> route
+@app.route("/id/<int:id>", methods=["GET"])
+def get_city_direct_id(id):
+    conn = connect_pdb()
+    if conn is None:
+        return jsonify({"error": "Database connection failed"}), 500
+
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT id, name FROM cities_data WHERE id = %s;", (id,))
+        city = cursor.fetchone()
+
+        cursor.close()
+        conn.close()
+
+        if city is None:
+            return jsonify({"error": "City not found"}), 404
+
+        return jsonify({"id": city[0], "name": city[1]})
+
+    except Exception as e:
+        print(f"Database query error: {e}")
+        return jsonify({"error": "Database query failed"}), 500
+
+
+
 
 # Endpoint to get cities modified after a specific date
 @app.route("/cities_modified_after", methods=["GET"])
