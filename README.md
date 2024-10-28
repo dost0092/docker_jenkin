@@ -70,3 +70,4 @@ The Jenkins pipeline defined in the `Jenkinsfile` includes the following stages:
 2. **Navigate to Your Pipeline Job**: Click on the job you created earlier.
 3. **Start the Build**: Click on **Build Now** to initiate the pipeline.
 4. **Monitor Console Output**: Click on the build number in the **Build History** section to see the console output and monitor the progress of your build. Thanks you
+5. Triggerd
