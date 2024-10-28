@@ -15,16 +15,6 @@ Before you get started, make sure you have the following installed:
 - **Docker**: Install Docker on your Jenkins server. Follow the [Docker installation instructions](https://docs.docker.com/get-docker/).
 - **Git**: Ensure that Git is installed on the Jenkins server.
 
-## Repository Structure
-
-The repository has the following structure:
-
-# docker_jenkin/ │ ├── Jenkinsfile 
-# The Jenkins pipeline script ├── Dockerfile 
-# Dockerfile for building the application image └── README.md # This README file
-
-bash
-Copy code
 
 ## Setup Instructions
 
