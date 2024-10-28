@@ -19,7 +19,9 @@ Before you get started, make sure you have the following installed:
 
 The repository has the following structure:
 
-docker_jenkin/ │ ├── Jenkinsfile # The Jenkins pipeline script ├── Dockerfile # Dockerfile for building the application image └── README.md # This README file
+# docker_jenkin/ │ ├── Jenkinsfile 
+# The Jenkins pipeline script ├── Dockerfile 
+# Dockerfile for building the application image └── README.md # This README file
 
 bash
 Copy code
