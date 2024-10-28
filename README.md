@@ -51,14 +51,16 @@ sudo usermod -aG docker jenkins
 Restart Jenkins to apply the changes.
 
 ## Pipeline Overview
-The Jenkins pipeline defined in the Jenkinsfile includes the following stages:
 
-Clone Repository: Clones the Git repository.
-Check for Old Docker Image: Checks if an existing Docker image is present.
-Clean Up Old Docker Image & Container: Deletes old images and containers if they exist.
-Build New Docker Image: Builds a new Docker image from the Dockerfile.
-Deploy New Container: Deploys the new Docker container using the newly built image.
-Post Actions: Performs any necessary cleanup or notifications after the pipeline runs.
+The Jenkins pipeline defined in the `Jenkinsfile` includes the following stages:
+
+- **Clone Repository**: Clones the Git repository.
+- **Check for Old Docker Image**: Checks if an existing Docker image is present.
+- **Clean Up Old Docker Image & Container**: Deletes old images and containers if they exist.
+- **Build New Docker Image**: Builds a new Docker image from the Dockerfile.
+- **Deploy New Container**: Deploys the new Docker container using the newly built image.
+- **Post Actions**: Performs any necessary cleanup or notifications after the pipeline runs.
+
 ## Using the Pipeline
 Access Jenkins: Open your Jenkins dashboard in a web browser.
 Navigate to Your Pipeline Job: Click on the job you created earlier.
