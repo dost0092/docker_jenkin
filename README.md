@@ -4,8 +4,7 @@ This repository contains a Jenkins pipeline for automating the building and depl
 
 ## Pipeline Diagram
 
-![Pipeline Diagram](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fjenkins-cicd-pipeline-building-pushing-images-docker-hub-poloju-9gikc&psig=AOvVaw3zB_TgNiF18QwQ4YodYasR&ust=1730185800677000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCfrc_CsIkDFQAAAAAdAAAAABAE)
-
+![Pipeline Diagram](./pipeline.png)
 
 ## Introduction
 
