@@ -26,7 +26,7 @@ Set Up Git Repository:
 In the job configuration, scroll down to the Pipeline section.
 Set the Definition to Pipeline script from SCM.
 Choose Git from the SCM dropdown.
-Enter your Git repository URL: https://github.com/dost0092/docker_jenkin.git.
+Enter your Git repository URL: https://github.com/username/repo.git.
 Optionally, add credentials if your repository is private.
 Specify the Script Path:
 
